@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://wilfre:<password>@cluster0.zgvyq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://wilfre:wilfre@cluster0.zgvyq.mongodb.net/Cluster0?retryWrites=true&w=majority', {
     useNewUrlParser: true
 })
   .then(db => console.log('db connected'))
